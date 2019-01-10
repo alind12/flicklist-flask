@@ -27,7 +27,7 @@ def index():
 
 #Randomly chooses one of the movies and returns it:
 def get_random_movie():
-    movie_list = ["Air Space", "Robin", "Green Mile", "Movie Life", "Joker"]
+    movie_list = ["Aqua Man", "Batman Vs. Superman", "Green Mile", "Bugs Life", "Joker"]
     rand_movie = random.sample(movie_list, 2)
     return rand_movie
 
